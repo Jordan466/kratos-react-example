@@ -68,7 +68,7 @@ This work-flow has been taken from the [Kratos Quickstart Guide](https://www.ory
 By running the following, still at the `root` of the project.
 
 ```bash
-$ docker-compose -f kratos/docker-compose.yml --build --force-recreate
+$ docker-compose -f kratos/docker-compose.yml up --build --force-recreate
 ```
 
 > The `docker-compose.yml` file has been configured to allocate `512Mb` of RAM and `.5` a CPU-core.
